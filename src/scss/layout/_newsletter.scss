@@ -1,0 +1,29 @@
+.newsletter {
+
+    .section-paragraph {
+        margin-bottom: 32px;
+    }
+
+    .section-highlight {
+		color: color(primary, 2)!important;
+        position: relative;
+        top: -2em !important;
+	}
+}
+
+.newsletter-form {
+    max-width: 440px;
+    margin: 0 auto;
+}
+
+@include media( '>medium' ) {
+
+    .newsletter {
+
+        .section-paragraph {
+            margin-bottom: 40px;
+            padding-left: 72px;
+            padding-right: 72px;
+        }
+    }
+}
